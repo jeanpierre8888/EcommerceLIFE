@@ -1,0 +1,82 @@
+.footer {
+    padding-block:20px;   
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    text-align: left;
+    margin-bottom:-50px
+}
+.logoLifeFooter{
+    height:20vh;
+}
+
+@media (min-width: 950px) {
+    .lineFooter {
+        background-color: white;
+        height: 0,5px;
+    }
+
+    .botFooter {
+        text-align: center;
+        font-size: 140%;
+        margin-top: 1%;
+    }
+
+    .optFooter {
+        margin-block: 10px;
+    }
+
+    .txtFooter {
+        font-size: 140%;
+    }
+
+    a {
+        color: #0366d6;
+    }
+
+    .socialNetwork {
+        text-align: center;
+    }
+
+    /* .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #404040;
+        color: white;
+        text-align: left;
+    } */
+}
+
+@media (max-width: 949px) {
+    .lineFooter {
+        background-color: white;
+        height: 0,5px;
+    }
+
+    .botFooter {
+        font-size: 100%;
+        margin-top: 7%;
+        text-align: center;
+    }
+
+    .txtFooter {
+        font-size: 100%;
+    }
+
+    .socialNetwork {
+        text-align: center;
+    }
+
+    /* .footer {
+        padding-top: 2%;
+        position: relative;
+        margin-bottom: 0px;
+        background-color: #404040;
+        color: white;
+        font-family: Poppins,sans-serif;
+    } */
+}

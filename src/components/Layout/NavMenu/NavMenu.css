@@ -1,0 +1,53 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.dropdown-item {
+  font-weight: 800;
+}
+.dropdown-item:focus {
+  background-color: transparent;
+  color: red;
+}
+.marginNav {
+  margin-top: 7%;
+
+}
+@media (max-width: 850px) {
+  .marginNav {
+    margin-top: 0%;
+  }
+}
+@media (min-width: 2550px) {
+  .marginNav {
+    margin-top: 2.5%;
+  }
+}
+@media (min-width: 2000px) {
+  .marginNav {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 1720px) {
+  .marginNav {
+    margin-top: 4.5%;
+  }
+}
+@media (min-width: 1420px) {
+  .marginNav {
+    margin-top: 5.5%;
+  }
+}
